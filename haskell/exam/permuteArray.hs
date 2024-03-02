@@ -10,18 +10,20 @@ test5 = TestCase (assertEqual "for ," [9, 8, 7, 6, 5, 4, 3, 2, 1] (permuteArray 
 test6 = TestCase (assertEqual "for ," [1, 1, 2, 5, 1, 1, 3] (permuteArray [1, 1, 2, 3, 5, 1, 1]))
 test7 = TestCase (assertEqual "for ," [1,2,3,4,5,6,7,8,9,10,11,12,14, 13] (permuteArray [1,2,3,4,5,6,7,8,9,10,11,12,13,14]))
 test8 = TestCase (assertEqual "for ," [1,2,3,4,5,6,7,8,9,10,11,12,14, 1,2,3,13] (permuteArray [1,2,3,4,5,6,7,8,9,10,11,12,13,14,3,2,1]))
-test9 = TestCase (assertEqual "for ," [1,2,3,4,5,6,7,8,9,10,11,12,13,14,3,2,3,1,1,2] (permuteArray [1,2,3,4,5,6,7,8,9,10,11,12,13,14,3,2,1,3,2,1]))
+test9 = TestCase (assertEqual "for ," [1,2,3,4,5,6,7,8,9,10,11,12,13,14,3,2,2,1,1,3] (permuteArray [1,2,3,4,5,6,7,8,9,10,11,12,13,14,3,2,1,3,2,1]))
+
 
 main :: IO ()
 main = do
   args <- getArgs
   case args of
-    ["test1"] -> runTestTT $ test1 >> return ()
-    ["test2"] -> runTestTT $ test2 >> return ()
-    ["test3"] -> runTestTT $ test3 >> return ()
-    ["test4"] -> runTestTT $ test4 >> return ()
-    ["test5"] -> runTestTT $ test5 >> return ()
-    ["test6"] -> runTestTT $ test6 >> return ()
-    ["test7"] -> runTestTT $ test7 >> return ()
-    ["test8"] -> runTestTT $ test8 >> return ()
-    ["test9"] -> runTestTT $ test9 >> return ()
+    ["test1"] -> (runTestTT $ TestList [test1]) >> return ()
+    ["test2"] -> (runTestTT $ TestList [test2]) >> return ()
+    ["test3"] -> (runTestTT $ TestList [test3]) >> return ()
+    ["test4"] -> (runTestTT $ TestList [test4]) >> return ()
+    ["test5"] -> (runTestTT $ TestList [test5]) >> return ()
+    ["test6"] -> (runTestTT $ TestList [test6]) >> return ()
+    ["test7"] -> (runTestTT $ TestList [test7]) >> return ()
+    ["test8"] -> (runTestTT $ TestList [test8]) >> return ()
+    ["test9"] -> (runTestTT $ TestList [test9]) >> return ()
+    _ -> putStrLn "Unknown test list"
