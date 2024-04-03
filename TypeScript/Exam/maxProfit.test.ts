@@ -10,7 +10,7 @@ describe("bloodForPatients", () => {
     })
 
     it("Test Case 3", () => {
-        expect(maxProfit([1,3,6])).toBe(3);
+        expect(maxProfit([1,3,6])).toBe(5);
     })
 
     it("Test Case 4", () => {
