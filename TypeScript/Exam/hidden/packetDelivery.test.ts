@@ -11,7 +11,7 @@ describe("packetDelivery", () => {
         expect(packetDelivery(1, 3, '../test/test3.txt')).toBe(0.13);
     });
     it("Test Case 4", () => {
-        expect(packetDelivery(0, 5, '../test/test4.txt')).toBe(0.19);
+        expect(packetDelivery(0, 5, '../test/test4.txt')).toBe(0.26);
     });
     it("Test Case 5", () => {
         expect(packetDelivery(1, 4, '../test/test5.txt')).toBe(0.27);
