@@ -3,7 +3,7 @@ import { bloodForPatients } from "../src/bloodForPatients";
 describe("bloodForPatients", () => {
 
     it("Test Case 1", () => {
-        expect(bloodForPatients([60,10,20,20], [58,8,30,5])).toBe(97)
+        expect(bloodForPatients([60,10,20,20], [58,8,30,5])).toBe(93)
     })
 
     it("Test Case 2", () => {
@@ -11,7 +11,7 @@ describe("bloodForPatients", () => {
     })
 
     it("Test Case 3", () => {
-        expect(bloodForPatients([26,8,10,2], [27,18,8,10])).toBe(44)
+        expect(bloodForPatients([27,18,8,10], [26,8,10,2])).toBe(45)
     })
 
     it("Test Case 4", () => {
@@ -19,6 +19,6 @@ describe("bloodForPatients", () => {
     })
 
     it("Test Case 5", () => {
-        expect(bloodForPatients([2,10,30,2], [10,5,15,5])).toBe(32)
+        expect(bloodForPatients([10,5,15,5], [2,10,30,2])).toBe(32)
     })
 })

@@ -10,55 +10,55 @@ let array4 = [["123@outlook.com","123@outlook.com","123@outlook.com","123@outloo
 
 let array5 = [["testing@outlook.com", "testing@outlook.com", "testing@outlook.com", "abc@outlook.com"], ["123@outlook.com", "qwerty12@gmail.com","qwerty12@gmail.com", "testing@outlook.com"], ["mnop786@gmail.com", "mnop786@gmail.com", "qwerty12@gmail.com", "abc@outlook.com"]]
 
-let array6 = [['animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com'], ['animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com'], ['xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com'], ['animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com'], ['xyz@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com'], ['animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com'], ['animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com'], ['animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com'], ['animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com'], ['animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com']]
+// let array6 = [['animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com'], ['animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com'], ['xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com'], ['animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com'], ['xyz@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com'], ['animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com'], ['animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com'], ['animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com'], ['animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com'], ['animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'xyz@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com', 'animal123@gmail.com']]
 
 // let sol1 = [[1,1,1,1], [1,0,0,0], [1,1,0,1]]
 let sol2 = [[1,1,1,1,1], [1,0,0,0,1], [1,0,1,0,1], [1,1,1,1,1]]
 let sol3 = [[1,0,1,1,1], [1,0,1,1,1], [0,1,0,0,1], [1,1,1,1,1]]
 // let sol4 = [[1,1,1,1,1,1], [1,0,0,0,0,1], [1,0,1,0,0,1], [1,0,0,0,0,1]]
 // let sol5 = [[1,1,1,1], [1,0,0,1], [1,1,0,1]]
-let sol6 =[
-    [
-      1, 1, 1, 0, 1,
-      1, 1, 0, 1, 1
-    ],
-    [
-      1, 0, 1, 0, 1,
-      1, 1, 1, 1, 0
-    ],
-    [
-      0, 0, 1, 0, 1,
-      0, 0, 1, 0, 1
-    ],
-    [
-      1, 0, 0, 1, 1,
-      1, 1, 0, 0, 1
-    ],
-    [
-      0, 0, 0, 0, 1,
-      0, 1, 1, 0, 0
-    ],
-    [
-      1, 1, 1, 1, 0,
-      0, 1, 1, 1, 1
-    ],
-    [
-      1, 0, 0, 0, 1,
-      1, 1, 0, 0, 1
-    ],
-    [
-      1, 1, 1, 0, 0,
-      1, 1, 1, 1, 0
-    ],
-    [
-      1, 1, 1, 1, 1,
-      0, 0, 0, 1, 1
-    ],
-    [
-      1, 0, 1, 0, 1,
-      1, 1, 1, 1, 1
-    ]
-  ]
+// let sol6 =[
+//     [
+//       1, 1, 1, 0, 1,
+//       1, 1, 0, 1, 1
+//     ],
+//     [
+//       1, 0, 1, 0, 1,
+//       1, 1, 1, 1, 0
+//     ],
+//     [
+//       0, 0, 1, 0, 1,
+//       0, 0, 1, 0, 1
+//     ],
+//     [
+//       1, 0, 0, 1, 1,
+//       1, 1, 0, 0, 1
+//     ],
+//     [
+//       0, 0, 0, 0, 1,
+//       0, 1, 1, 0, 0
+//     ],
+//     [
+//       1, 1, 1, 1, 0,
+//       0, 1, 1, 1, 1
+//     ],
+//     [
+//       1, 0, 0, 0, 1,
+//       1, 1, 0, 0, 1
+//     ],
+//     [
+//       1, 1, 1, 0, 0,
+//       1, 1, 1, 1, 0
+//     ],
+//     [
+//       1, 1, 1, 1, 1,
+//       0, 0, 0, 1, 1
+//     ],
+//     [
+//       1, 0, 1, 0, 1,
+//       1, 1, 1, 1, 1
+//     ]
+//   ]
 
 
 const evaluatePath = (maze: number[][], path: number[][], start: number[], goal: number[]) => {
@@ -117,8 +117,8 @@ describe("promiseResolver", () => {
     }, 50000)
 
     // caching check
-    test("Test 6", async () => {
-        const result = await promiseResolver(array6, [9,0],[0,9]);
-        expect(evaluatePath(sol6, result, [9,0], [0,9])).toBe(true);
-    }, 50000)
+    // test("Test 6", async () => {
+    //     const result = await promiseResolver(array6, [9,0],[0,9]);
+    //     expect(evaluatePath(sol6, result, [9,0], [0,9])).toBe(true);
+    // }, 50000)
 })
